@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # store the current dir
-CUR_DIR=$(pwd)
+CUR_DIR=$1
 
 # Let the person running the script know what's going on.
 echo "\n\033[1mPulling in latest changes for all repositories...\033[0m\n"
